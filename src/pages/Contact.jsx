@@ -55,40 +55,13 @@ export default function Contact() {
                         ))}
                     </div>
                 </div>
-
-                {/* <form className="contact-form" onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            value={formData.name}
-            onChange={handleChange}
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formData.email}
-            onChange={handleChange}
-            required
-          />
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            value={formData.message}
-            onChange={handleChange}
-            required
-          />
-          <button type="submit">Send Message</button>
-        </form> */}
             </div>
 
             <div className="address-section">
                 <h2>At Location</h2>
                 <div className="address-content">
                     <div className="address-info">
-                        <p><strong>Learning Powers</strong></p>
+                        <p><strong>Manjit Singh Meel</strong></p>
                         <p>B.R.M. Memorial Public School</p>
                         <p>Near Meel Market, Shahidanwali</p>
                             <p>Fatehabad (125050) Haryana, India </p>

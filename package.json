@@ -3,19 +3,20 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://learningpowers.in",
+  "homepage": "https://ManjitSinghMeel.github.io/LearningPowers",
   "scripts": {
     "dev": "vite",
     "build": "vite build && powershell Copy-Item -Path ./public/media -Destination ./dist/media -Recurse -Force",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -b main"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "node-fetch": "^3.3.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0"
@@ -33,3 +34,4 @@
     "vite": "^6.3.5"
   }
 }
+

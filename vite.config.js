@@ -4,5 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/' // Changed from '/manjeet/' to '/'
+  base: '/', // Changed from '/manjeet/' to '/'
+  server: {
+    allowedHosts: ['literally-creative-termite.ngrok-free.app']
+  }
 })
